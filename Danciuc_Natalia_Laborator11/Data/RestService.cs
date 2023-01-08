@@ -14,7 +14,7 @@ namespace Danciuc_Natalia_Laborator11.Data
         HttpClient client;
 
         //se va modifica ulterior cu ip-ul si portul corespunzator
-        string RestUrl = "https://192.169.0.8:45455/api/shoplists/{0}";
+        string RestUrl = "https://192.168.0.125:45456/swagger";
         public List<ShopList> Items { get; private set; }
         public RestService()
         {
